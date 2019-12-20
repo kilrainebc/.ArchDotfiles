@@ -1,7 +1,10 @@
 .PHONY=clean build #tells make that clean & build are targets and not files
 
 clean : 
+	@echo ""
 	@echo "cleaning..."	
+	@echo ""
+	@rm $(HOME)/.gitignore	
 	@rm $(HOME)/.Xresources
 	@rm $(HOME)/.aliasrc
 	@rm $(HOME)/.bash_profile
@@ -10,6 +13,9 @@ clean :
 	@rm $(HOME)/.xinitrc
 
 build : clean 
-	chmod u+x ./bootstrap.sh
-	./bootstrap.sh
-
+	@echo ""
+	@echo "building..."
+	@echo ""
+	@chmod u+x ./bootstrap.sh
+	@./bootstrap.sh
+	@echo ""
