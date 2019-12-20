@@ -56,7 +56,7 @@ fi
 #exec xterm -geometry 80x66+0+0 -name login
 
 # NEW CONFIG
-~/.fehbg &
+~/bin/.fehbg &
 (wal -R) &
 exec i3
  
