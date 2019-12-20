@@ -1,13 +1,12 @@
 #!/bin/bash
 
-echo "BOOTSTRAPPING DOTFILES"
+Printf( "==============BOOTSTRAPPING DOTFILES==============\n\n")
 
-ln -sv .Xresources ~/.Xresources
-ln -sv .aliasrc ~/.aliasrc
-ln -sv .bash_profile ~/.bash_profile
-ln -sv .bashrc ~/.bashrc
-ln -sv .vimrc ~/.vimrc
-ln -sv .xinitrc ~/.xinitrc
-ln -sv .vim/ ~/.vim/
+ln -sv ~/.Dotfiles/.Xresources ~
+ln -sv ~/.Dotfiles/.aliasrc ~
+ln -sv ~/.Dotfiles/.bash_profile ~
+ln -sv ~/.Dotfiles/.bashrc ~
+ln -sv ~/.Dotfiles/.vimrc ~
+ln -sv ~/.Dotfiles/.xinitrc ~
 
 
