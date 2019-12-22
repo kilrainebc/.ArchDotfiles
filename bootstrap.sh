@@ -10,4 +10,5 @@ ln -sv ~/.ArchDotfiles/.vimrc ~
 ln -sv ~/.ArchDotfiles/.xinitrc ~
 ln -sv ~/.ArchDotfiles/.gitignore ~
 ln -sv ~/.ArchDotfiles/.config	~/.config
-
+ln -sv ~/.ArchDotfiles/Pictures ~/Pictures
+ln -sv ~/.ArchDotfiles/.fehbg ~

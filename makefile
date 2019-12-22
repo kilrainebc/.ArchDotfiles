@@ -4,13 +4,16 @@ clean :
 	@echo ""
 	@echo "cleaning..."	
 	@echo ""
+	@rm $(HOME)/.gitignore
 	@rm $(HOME)/.Xresources
 	@rm $(HOME)/.aliasrc
 	@rm $(HOME)/.bash_profile
 	@rm $(HOME)/.bashrc
 	@rm $(HOME)/.vimrc
 	@rm $(HOME)/.xinitrc
+	@rm $(HOME)/.fehbg	
 	@rm -rf $(HOME)/.config/
+	@rm -rf $(HOME)/Pictures/
 
 build : clean 
 	@echo ""

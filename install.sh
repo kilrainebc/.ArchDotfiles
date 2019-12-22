@@ -9,7 +9,7 @@ packages+=' xorg-apps xorg-server xorg-xinit'
 packages+=' rxvt-unicode dmenu i3-wm ranger feh' 
 
 # Coding | Git, Vim, make, python, pip
-packages+=' git vim make python pip' 
+packages+=' git vim make python python-pip'
 
 # Admin-Tools | SSH, sudo 
 packages+=' openssh sudo' 
@@ -21,7 +21,7 @@ packages+=' otf-overpass ttf-dejavu'
 printf "$packages\n"
 
 #Install Packages
-pacman -Syu --noconfirm $packages
+sudo pacman -Syu --noconfirm $packages
 
 #Install PyWal
 yes | pip3 install pywal
