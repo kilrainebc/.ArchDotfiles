@@ -1,0 +1,13 @@
+.Xresources
+.aliasrc
+.bash_profile
+.bashrc
+.config
+.fehbg
+.vimrc
+.xinitrc
+
+
+#.dock.sh
+#.laptop.sh
+#.windowed.sh
